@@ -248,7 +248,7 @@
     "pretest": "npm run compile && npm run lint",
     "lint": "eslint src",
     "test": "vscode-test",
-    "release": "bumpp --all",
+    "release": "bumpp",
     "package": "vsce package"
   },
   "devDependencies": {
